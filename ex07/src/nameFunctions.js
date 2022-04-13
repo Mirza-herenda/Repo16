@@ -1,17 +1,12 @@
+'use strict';
 
-const firstName=(firstName) =>
-{
-
-    return firstName.toUpperCase();
-}
-
-const lastName=(lastName) =>
-{
-    return lastName.toLowerCase();
-}
+const firstName = (firstName) => firstName.toUpperCase();
+const lastName = (lastName) => lastName.toLowerCase();
 
 
-console.log(firstName("mirza"));
-console.log(lastName("MIRZA"));
+// console.log(firstName("tokyo"));
+// console.log(lastName("AIDA"));
+
+
 exports.firstName = firstName;
 exports.lastName = lastName;
